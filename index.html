@@ -3,37 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webtoon with ChatGPT</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webtoon - Explore Webtoons</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Webtoon with ChatGPT</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <a href="index.html" class="logo">Webtoon</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="webtoon">
-        <h2>Latest Episode</h2>
-        <img src="webtoon-episode1.jpg" alt="Webtoon Episode 1">
-        <p>Click below to start a conversation with the characters of the webtoon!</p>
-        <button id="chat-btn">Start Chat</button>
-    </section>
+    <main>
+        <section class="hero">
+            <h1>Explore the Best Webtoons</h1>
+            <p>Discover new stories and immerse yourself in fantastic art.</p>
+        </section>
 
-    <section id="chat-box">
-        <div id="chat-content">
-            <!-- Chat content will go here -->
-        </div>
-        <textarea id="user-input" placeholder="Type your message..."></textarea>
-        <button id="send-btn">Send</button>
-    </section>
+        <section class="webtoons">
+            <div class="webtoon-item">
+                <img src="webtoon1.jpg" alt="Webtoon Title 1">
+                <h3>Webtoon Title 1</h3>
+            </div>
+            <div class="webtoon-item">
+                <img src="webtoon2.jpg" alt="Webtoon Title 2">
+                <h3>Webtoon Title 2</h3>
+            </div>
+            <div class="webtoon-item">
+                <img src="webtoon3.jpg" alt="Webtoon Title 3">
+                <h3>Webtoon Title 3</h3>
+            </div>
+            <!-- Add more webtoons here -->
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Webtoon with ChatGPT. All rights reserved.</p>
+        <p>&copy; 2025 Webtoon. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
